@@ -1208,7 +1208,7 @@
 	
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="20000000" autoOptimize="true" operatorAnalysis="PEAL.ops">
+	<mcmc id="mcmc" chainLength="40000000" autoOptimize="true" operatorAnalysis="PEAL.ops">
 		<joint id="joint">
 			<prior id="prior">
 				<logNormalPrior mu="1.0" sigma="1.25" offset="0.0">
